@@ -144,10 +144,19 @@ label {
   margin-left: 15px;
 }
 
+.Recent {
+  display: flex;
+  justify-content: space-between;
+}
+
 .SelectSeason {
   width: 200px;
   color: #00008B;
   font-size: 15px;
+}
+
+.Photo {
+  height: 100px
 }
 
 .SelectSeason .Title {
