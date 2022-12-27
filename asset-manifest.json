@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/soccerlopettes/static/css/main.aada5bed.css",
+    "main.js": "/soccerlopettes/static/js/main.9a32625e.js",
+    "static/js/787.441b9057.chunk.js": "/soccerlopettes/static/js/787.441b9057.chunk.js",
+    "static/media/saison2008.png": "/soccerlopettes/static/media/saison2008.fccd52a52d5194e039dd.png",
+    "static/media/saison2011.png": "/soccerlopettes/static/media/saison2011.784a1df0ea8ae0709e7c.png",
+    "static/media/saison2004.png": "/soccerlopettes/static/media/saison2004.0669b04896eb747d13d4.png",
+    "static/media/saison2018.png": "/soccerlopettes/static/media/saison2018.c023f77a551e42ecd318.png",
+    "static/media/saison2016.png": "/soccerlopettes/static/media/saison2016.654caace0158682637db.png",
+    "static/media/saison2017.png": "/soccerlopettes/static/media/saison2017.7b88a9d7d9ddc2fd067e.png",
+    "static/media/saison2007.png": "/soccerlopettes/static/media/saison2007.de72cf9f0a5d65e1bef0.png",
+    "static/media/saison2015.png": "/soccerlopettes/static/media/saison2015.78263c0ad142af5eb082.png",
+    "static/media/saison2005.png": "/soccerlopettes/static/media/saison2005.e5152955ac0838843a02.png",
+    "static/media/saison2009.png": "/soccerlopettes/static/media/saison2009.578811288e78233301bc.png",
+    "static/media/saison2010.png": "/soccerlopettes/static/media/saison2010.81bea44d47a6198c8121.png",
+    "static/media/saison2014.png": "/soccerlopettes/static/media/saison2014.b952ae44136fc428ec93.png",
+    "static/media/saison2013.png": "/soccerlopettes/static/media/saison2013.6f48dd853ec16b4a0294.png",
+    "static/media/saison2006.png": "/soccerlopettes/static/media/saison2006.46580750bbffa1a93d1c.png",
+    "static/media/saison2012.png": "/soccerlopettes/static/media/saison2012.94fec0ad6a5da934d480.png",
+    "static/media/ceinture-mini.jpeg": "/soccerlopettes/static/media/ceinture-mini.004200d56353593be7b2.jpeg",
+    "index.html": "/soccerlopettes/index.html",
+    "static/media/elderly.svg": "/soccerlopettes/static/media/elderly.059277e0d714799deaf1f4fdf5cb9837.svg",
+    "main.aada5bed.css.map": "/soccerlopettes/static/css/main.aada5bed.css.map",
+    "main.9a32625e.js.map": "/soccerlopettes/static/js/main.9a32625e.js.map",
+    "787.441b9057.chunk.js.map": "/soccerlopettes/static/js/787.441b9057.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aada5bed.css",
+    "static/js/main.9a32625e.js"
+  ]
+}
