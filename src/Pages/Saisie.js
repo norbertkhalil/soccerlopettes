@@ -21,7 +21,7 @@ const dernierVendredi = () => {
 const defaultTeam = Array(5).fill("");
 
 
-export const Saisie = () => {
+export const Saisie = (props) => {
 
   const [resultat, setResultat] = useState({ team1: defaultTeam, team2: defaultTeam, result: "", matchDate: dernierVendredi() })
   const [newPlayer, setNewPlayer] = useState(false)
@@ -104,7 +104,11 @@ export const Saisie = () => {
       return
     }
     const answer = await addMatch(resultInfo, contextData.annee);
-    if (answer) { toast.success("C'est dans la boîte!"); } else {
+    if (answer) {
+      toast.success("C'est dans la boîte!");
+      //Inform daddy that data needs to be updated
+      props.updateData();
+    } else {
       toast.error("Gros soucy ça a pas marché")
     }
   }

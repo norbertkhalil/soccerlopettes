@@ -156,7 +156,16 @@ label {
 }
 
 .Photo {
-  height: 100px
+  height: 90px
+}
+
+.PhotoSection {
+  text-align: center;
+}
+
+.PhotoSection .title {
+  font-size: 14px;
+  color: #00008B;
 }
 
 .SelectSeason .Title {

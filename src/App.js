@@ -12,7 +12,8 @@ import { DataContext } from './context';
 
 function App() {
   const [data, setData] = useState({ annee: "", annees: [], lopettes: [], matchs: [] })
-
+  // To know if data needs to be updated
+  const [updateData, setUpdateData] = useState(true);
 
 
   useEffect(() => {
@@ -23,8 +24,12 @@ function App() {
       const matchs = await getMatchs(derniereAnnee)
       setData({ annee: derniereAnnee, annees, lopettes, matchs })
     }
-    loadData();
-  }, [])
+    if (updateData) {
+      loadData();
+      setUpdateData(false)
+    }
+
+  }, [updateData])
   const { annee, annees, lopettes, matchs } = data;
   return (
     <div className="App">
@@ -34,7 +39,7 @@ function App() {
             <Redirect path="*" to="/" />
             <Route exact path="/" component={Maison} />
             <Route exact path="/matchs" component={Matchs} />
-            <Route exact path="/saisie" component={Saisie} />
+            <Route exact path="/saisie" render={() => <Saisie updateData={() => setUpdateData(true)} />} />
             <Route exact path="/classement" component={Classement} />
             <Route exact path="/historique" component={Historique} />
             <Route exact path="/recent" component={Recent} />
