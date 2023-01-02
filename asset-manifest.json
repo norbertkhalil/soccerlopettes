@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/soccerlopettes/static/css/main.aada5bed.css",
-    "main.js": "/soccerlopettes/static/js/main.9a32625e.js",
+    "main.css": "/soccerlopettes/static/css/main.92f81c56.css",
+    "main.js": "/soccerlopettes/static/js/main.378f4f0f.js",
     "static/js/787.441b9057.chunk.js": "/soccerlopettes/static/js/787.441b9057.chunk.js",
     "static/media/saison2008.png": "/soccerlopettes/static/media/saison2008.fccd52a52d5194e039dd.png",
     "static/media/saison2011.png": "/soccerlopettes/static/media/saison2011.784a1df0ea8ae0709e7c.png",
@@ -21,12 +21,12 @@
     "static/media/ceinture-mini.jpeg": "/soccerlopettes/static/media/ceinture-mini.004200d56353593be7b2.jpeg",
     "index.html": "/soccerlopettes/index.html",
     "static/media/elderly.svg": "/soccerlopettes/static/media/elderly.059277e0d714799deaf1f4fdf5cb9837.svg",
-    "main.aada5bed.css.map": "/soccerlopettes/static/css/main.aada5bed.css.map",
-    "main.9a32625e.js.map": "/soccerlopettes/static/js/main.9a32625e.js.map",
+    "main.92f81c56.css.map": "/soccerlopettes/static/css/main.92f81c56.css.map",
+    "main.378f4f0f.js.map": "/soccerlopettes/static/js/main.378f4f0f.js.map",
     "787.441b9057.chunk.js.map": "/soccerlopettes/static/js/787.441b9057.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aada5bed.css",
-    "static/js/main.9a32625e.js"
+    "static/css/main.92f81c56.css",
+    "static/js/main.378f4f0f.js"
   ]
 }
