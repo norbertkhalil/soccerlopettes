@@ -18,9 +18,12 @@ function App() {
 
   useEffect(() => {
     const loadData = async () => {
+      // get all the seasons
       const annees = await getSeasons()
       const derniereAnnee = annees?.length ? annees[0] : "2022"
+      // get all the players
       const lopettes = await getLopettes()
+      // get the matchs of the current year
       const matchs = await getMatchs(derniereAnnee)
       setData({ annee: derniereAnnee, annees, lopettes, matchs })
     }
