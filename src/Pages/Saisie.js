@@ -89,11 +89,12 @@ export const Saisie = (props) => {
   const addLopette = async () => {
     const name = newPlayer;
     if (joueurs.includes(name)) { toast("Nom déjà présent trouve un autre nom"); }
-    const result = await addJoueur(name)
-    if (result) {
-      setJoueurs([...joueurs, name])
+    else if (name) {
+      const result = await addJoueur(name)
+      if (result) {
+        setJoueurs([...joueurs, name])
+      }
     }
-
   }
   const sendResult = async () => {
     const { team1, team2, result, matchDate } = resultat;

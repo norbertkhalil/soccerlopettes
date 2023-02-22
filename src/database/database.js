@@ -54,10 +54,10 @@ export const addMatch = async (matchInfo, year) => {
     }
 }
 
-export const addJoueur = async (noms) => {
+export const addJoueur = async (nom) => {
     const lopetteRef = doc(db, "Lopettes", "lopettes");
     try {
-        await updateDoc(lopetteRef, { "noms": noms });
+        await updateDoc(lopetteRef, { noms: arrayUnion(nom) });
         return true
     } catch (e) {
         return false
