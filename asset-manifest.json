@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/soccerlopettes/static/css/main.92f81c56.css",
-    "main.js": "/soccerlopettes/static/js/main.eaacde4f.js",
+    "main.js": "/soccerlopettes/static/js/main.fc5ef1a8.js",
     "static/js/787.441b9057.chunk.js": "/soccerlopettes/static/js/787.441b9057.chunk.js",
     "static/media/saison2008.png": "/soccerlopettes/static/media/saison2008.fccd52a52d5194e039dd.png",
     "static/media/saison2011.png": "/soccerlopettes/static/media/saison2011.784a1df0ea8ae0709e7c.png",
@@ -22,11 +22,11 @@
     "index.html": "/soccerlopettes/index.html",
     "static/media/elderly.svg": "/soccerlopettes/static/media/elderly.059277e0d714799deaf1f4fdf5cb9837.svg",
     "main.92f81c56.css.map": "/soccerlopettes/static/css/main.92f81c56.css.map",
-    "main.eaacde4f.js.map": "/soccerlopettes/static/js/main.eaacde4f.js.map",
+    "main.fc5ef1a8.js.map": "/soccerlopettes/static/js/main.fc5ef1a8.js.map",
     "787.441b9057.chunk.js.map": "/soccerlopettes/static/js/787.441b9057.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92f81c56.css",
-    "static/js/main.eaacde4f.js"
+    "static/js/main.fc5ef1a8.js"
   ]
 }
